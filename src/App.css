@@ -1,0 +1,61 @@
+.banner {
+  width: 100%;
+  max-height: 100vh;
+  object-fit: cover;
+}
+
+.contact {
+  padding: 20px;
+  background: #ffcc00;
+  font-size: 18px;
+}
+
+.contact a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.info-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 30px;
+  background: #ffffff;
+  text-align: left;
+  gap: 20px;
+}
+
+.services, .timing {
+  width: 45%;
+  padding: 15px;
+  background: #f1f1f1;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-top: 0;
+  color: #d62828;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .info-section {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .services, .timing {
+    width: 100%;
+  }
+}
